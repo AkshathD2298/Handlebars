@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- views/partials/table.hbs -->
+<table>
+    <thead>
+        <tr>
+        
+            <th>Title</th>
+            <th>Author</th>
+            <th>Price</th>
+            <th>Pages</th>
+            <th>Avg Reviews</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+            {{#each data}}
+                <tr>
+                    <td>{{this.title}}</td>
+                    <td>{{this.author}}</td>
+                    <td>{{this.price}}</td>
+                    <td>{{this.pages}}</td>
+                    <td>{{this.avg_reviews}}</td>
+                </tr>
+            {{/each}}
+        
+    </tbody>
+</table>
+
+</body>
+</html>

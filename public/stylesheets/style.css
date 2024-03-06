@@ -1,0 +1,24 @@
+html,.container{
+    height:100%;
+}
+body {
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  }
+header{
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+  }
+  footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+  }
+  .container{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
